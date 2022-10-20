@@ -1,0 +1,10 @@
+.comment {
+  display: flex;
+  margin-top: 10px;
+}
+.edit-comment {
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  height: 40px;
+}

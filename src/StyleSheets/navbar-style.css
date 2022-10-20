@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+a {
+  color: black;
+}
+
+.insta-logo {
+  font-family: "Grand Hotel", cursive;
+  display: inline-block;
+  font-size: 2.1rem;
+  text-decoration: none;
+  padding-left: 5%;
+}
+
+.navbar-nav {
+  margin-right: auto;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.nav-home {
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-top: 8px;
+  color: black;
+}
+
+.nav-home:hover {
+  color: red;
+}
+
+.item {
+  width: 30%;
+}
+
+.home-card {
+  max-width: 50%;
+  height: max-content;
+  margin: 26px auto;
+}
+.row li {
+  width: 33.3%;
+  float: left;
+}
+
+.create-post {
+  margin-top: 30px;
+  margin-left: 10%;
+  max-width: 500px;
+  padding: 20px;
+  text-align: "center";
+}
+
+.profile-info {
+  max-width: 50%;
+  margin: 0px auto;
+}
+
+.upper-info {
+  margin: 5%;
+  border-bottom: 1px solid grey;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.user-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.post-info {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.post-request-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.comment-section {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.badge {
+  padding-left: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605;
+}
+
+#lblCartCount {
+  font-size: 15px;
+  background: #ff0000;
+  color: rgb(255, 255, 255);
+  padding: 0 5px;
+  vertical-align: top;
+  margin-left: -10px;
+}
+
+.navbar {
+  position: relative;
+  z-index: 999;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.images-section {
+  height: 50% !important;
+}
+
+.create-heading {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 800;
+}

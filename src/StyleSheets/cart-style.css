@@ -1,0 +1,121 @@
+.main-section {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: white;
+  font-weight: 500;
+  font-size: xx-large;
+  padding-top: 1rem;
+}
+
+.cart-section {
+  width: 75%;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.desc-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+  align-items: baseline;
+  padding-top: 1rem;
+}
+
+.item-section {
+  width: 100%;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.item {
+  width: 100%;
+  height: 150px;
+  align-items: center;
+  justify-items: center;
+  border: 1px solid rgb(162, 160, 160);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.product-image {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.amount-sec {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.clear-btn {
+  margin-left: 2rem;
+  width: 100%;
+}
+
+.checkout {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.items-title {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+.cart-main-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 800px;
+}
+
+.items-section {
+  flex: 1;
+}
+
+.card-section {
+  flex: 1;
+  margin-top: 5rem;
+}
+
+.items {
+  width: 100%;
+  margin-top: 1rem;
+  margin-top: 2rem;
+  border-bottom: 1px solid rgb(200, 196, 196);
+}
+
+.item-sec {
+  margin-top: 1rem;
+}
+
+.total-sec {
+  padding-top: 5rem;
+  padding-left: 2rem;
+}
+
+.card-expire,
+.card-name,
+.card-number {
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+.coupan-sec {
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
+.coupan-input {
+  width: 30%;
+}
+.coupan-button {
+  width: fit-content;
+}

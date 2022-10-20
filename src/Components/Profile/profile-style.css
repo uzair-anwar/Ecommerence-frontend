@@ -1,0 +1,79 @@
+.info-sec {
+  margin-left: 2%;
+  margin-top: 5%;
+  display: flex;
+  width: 100%;
+}
+
+.side-bar {
+  width: 20%;
+  padding: none !important;
+}
+
+.info-details {
+  width: 30%;
+  padding: 5% 5%;
+}
+
+.pic-details {
+  width: 30%;
+  padding-left: 20px;
+}
+
+.profile-name {
+  margin-top: 15%;
+  margin-left: 30%;
+}
+
+.profile-image {
+  display: flex;
+  margin-left: 25%;
+  margin-top: 10%;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.product-title {
+  padding: 1rem 0;
+}
+
+.main-content {
+  margin-top: 2rem;
+}
+
+.heading-section {
+  display: flex;
+  padding: 1rem 0;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem 0;
+}
+
+.orders-detail,
+.product-detail {
+  padding: 0 2rem;
+}
+
+.orders-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 140%;
+}
